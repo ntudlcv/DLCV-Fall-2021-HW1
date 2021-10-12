@@ -5,7 +5,7 @@ In HW1 problem 1, you will need to implement an image classification model and a
 # HW1 Problem 2― Semantic Segmentation
 In HW1 problem 2, you will need to implement two semantic segmentation models and answer some questions in the report.
 
-For more details, please click [this link](https://docs.google.com/presentation/d/1H4O5NrEK-AzS2jRggWSpzs9hHEsYlCNYQdJbHlDfH48/edit?usp=sharing) to view the slides of HW2 
+For more details, please click [this link](https://docs.google.com/presentation/d/1H4O5NrEK-AzS2jRggWSpzs9hHEsYlCNYQdJbHlDfH48/edit?usp=sharing) to view the slides of HW1
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
