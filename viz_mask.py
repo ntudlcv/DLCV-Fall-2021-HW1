@@ -1,8 +1,7 @@
 import os
 import argparse
-import scipy.misc
 import scipy.ndimage
-import scipy.misc
+import imageio
 
 import numpy as np 
 
@@ -120,8 +119,8 @@ if __name__ == '__main__':
     img_path = args.img_path
     seg_path = args.seg_path
 
-    img = scipy.misc.imread(img_path)
-    seg = scipy.misc.imread(seg_path)
+    img = imageio.imread(img_path)
+    seg = imageio.imread(seg_path)
     
     masks=read_masks(seg, img.shape)
 
@@ -134,4 +133,4 @@ if __name__ == '__main__':
         ind = np.where(masks==c)
         mask[ind[0], ind[1]] = 1
         img = viz_data(img, mask, color=cmap[c])
-        scipy.misc.imsave('./exp.png', np.uint8(img))
+        imageio.imsave('./exp.png', np.uint8(img))
