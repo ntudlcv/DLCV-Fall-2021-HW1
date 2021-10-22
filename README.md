@@ -64,7 +64,7 @@ The shell script file for running your semantic segmentation model.
 We will run your code in the following manner:
 
     bash hw1_1.sh $1 $2
-where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the path of folder where you want to output your prediction file (e.g. `test/label_pred/` ). Please do not create the output prediction directory in your bash script or python codes.
+where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the path of csv file where you want to output your prediction file (e.g. `test/label_pred/output.csv` ). Please do not create the output prediction directory in your bash script or python codes.
 
     bash hw1_2.sh $1 $2
 where `$1` is the testing images directory (e.g. `test/images/`), and `$2` is the output prediction directory for segmentation maps (e.g. `test/label_pred/` ). Please do not create the output prediction directory in your bash script or python codes.
